@@ -1,0 +1,11 @@
+git init - to initialise a folder (file system) with git (version control system)
+git add . - add all the files to stage (prepare for commit)
+git status
+git commit -m "message - commit the files with a message"
+git log - show the commit history
+now you want to push the files to github(from local to your remote server) 
+git remote add origin https://github.com/username/repository.git - add the remote repository
+git remote -v - show the remote repository 
+to authenticate - use PAT token or SSH 
+git remote set-url origin https://username:token@github.com/username/repository.git - use PAT token
+git push -u origin branch - push the files to the remote repository
