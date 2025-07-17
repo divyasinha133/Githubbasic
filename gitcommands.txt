@@ -16,3 +16,6 @@ git pull origin branch --rebase - pull the changes from the remote repository
 git checkout -B branchname - create and switch to a new branch
 git switch branch / git checkout branch - switch to a different branch
 git merge branch - merge the changes from the branch into the current branch
+git branch -d <branch-name> - delete a branch
+
+git fetch - pulls all branch from github to local 
