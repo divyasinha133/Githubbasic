@@ -9,3 +9,6 @@ git remote -v - show the remote repository
 to authenticate - use PAT token or SSH 
 git remote set-url origin https://username:token@github.com/username/repository.git - use PAT token
 git push -u origin branch - push the files to the remote repository
+
+before push - if someone changes anything in the repo directly , then you need to pull those changes first before pushing 
+git pull origin branch --rebase - pull the changes from the remote repository
